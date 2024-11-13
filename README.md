@@ -1,5 +1,4 @@
-# Date:
-# Ex-4: ARP-Attack-and-Network-Sniffing
+# ARP-Attack-and-Network-Sniffing
 # Explore Network Sniffing and ARP Attacks
 
 # AIM:
@@ -25,43 +24,30 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
-![Screenshot (235)](https://github.com/user-attachments/assets/04a06e79-3a07-47ac-b05c-4ff99c131f40)
+# ![image](https://github.com/Roselineb/ARP-Attack-and-Network-Sniffing/assets/128909895/5ade3192-293a-436d-942b-f785fa335cee)
 
 
 From kali linux issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/54b4a3a8-44e2-4765-98b5-6c1ee9aebcc5)
+# ![image](https://github.com/Roselineb/ARP-Attack-and-Network-Sniffing/assets/128909895/b6105e25-f9a8-4d28-9464-c910b87049f0)
 
-
- dsniff:
-
-
-
-
-
+## dsniff:
 
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/99197c22-5bf6-47a2-9c27-fc6b4bf2007f)
-
-
+# ![image](https://github.com/Roselineb/ARP-Attack-and-Network-Sniffing/assets/128909895/c426f3cc-47e2-4631-aaae-ba1244ff9633)
 
 
 In Kali issue the following commands:
 sudo dsnifff
-
 ## OUTPUT:
+# ![image](https://github.com/Roselineb/ARP-Attack-and-Network-Sniffing/assets/128909895/8123604d-0355-4114-8e7c-52728d5d08ef)
 
-![image](https://github.com/user-attachments/assets/689ef697-a235-497d-a223-eb3f78285107)
-
-## Wireshark:
 Invoke the wireshark and examine the various menus  and controls of the tool:
+# ![image](https://github.com/Roselineb/ARP-Attack-and-Network-Sniffing/assets/128909895/6e4f849a-9c76-4376-b777-0a9defbe64ba)
 
-## OUTPUT:
-
-![image](https://github.com/user-attachments/assets/cc9f856b-d21a-49ff-a635-b11fdec79fc6)
 
 ## RESULT:
-The kali linux tools for ARP Attack and Network Sniffing were identified successfully.
+The kali linux tools for ARP Attack and Network Sniffing were identified successfully
